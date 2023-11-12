@@ -3,8 +3,7 @@ def capturar_entrada():
     entrada = input("Que valor deseas mostrar: ")
 
     while not entrada.isdigit():
-        entrada = input(
-            "Ingrese solo números enteros positivos, que valor deseas mostrar: ")
+        entrada = input("Ingrese solo números enteros positivos, que valor deseas mostrar: ")
 
     for item in entrada:
         display.append(led_status(digits[int(item)]))
